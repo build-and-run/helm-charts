@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  go-whoami:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: 2019-04-26T10:23:11.695798+02:00
+    description: |
+      A Helm chart for go-whoami
+    digest: 450c7a9e1f2a0d6271b99bfb1a8c05a1bab7ede7f6e2ead1fe06622aca02a44b
+    name: go-whoami
+    urls:
+    - https://charts.build-and-run.fr/stable/go-whoami-0.0.1.tgz
+    version: 0.0.1
+generated: 2019-04-26T10:23:11.694312+02:00

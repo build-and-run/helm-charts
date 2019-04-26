@@ -18,22 +18,24 @@ helm repo add build-and-run https://charts.build-and-run.fr/incubator
 helm repo update
 ```
 
-## adding charts
+## Adding charts
 
-- Adds you chart in `stable` or `incubator` directory
-- Run `helm package -d src/charts/stable stable/my-chart` or `helm package -d src/charts/incubator incubator/my-chart`
+- Adds you chart in `src/stable` or `src/incubator` directory
+- Run `helm package -d docs/stable/ src/stable/my-chart` or `helm package -d docs/incubator/ src/incubator/my-chart`
 - Run `make index`
 
-# contributing
+# Contributing
 
-## testing localy
+## Testing localy
 
 ```sh
 helm serve --repo-path docs/stable --url https://charts.build-and-run.fr/stable
-helm repo add test-bar-stable http://127.0.0.1:8879/charts/
+helm repo add test-bar-stable http://127.0.0.1:8879/
 ```
+
+or
 
 ```sh
 helm serve --repo-path charts/incubator --url https://build-and-run.github.io/helm-charts/charts/incubator
-helm repo add test-bar-incubator http://127.0.0.1:8879/charts/
+helm repo add test-bar-incubator http://127.0.0.1:8879/
 ```
