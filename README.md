@@ -20,8 +20,8 @@ helm repo update
 
 ## Adding charts
 
-- Adds you chart in `src/stable` or `src/incubator` directory
-- Run `helm package -d docs/stable/ src/stable/my-chart` or `helm package -d docs/incubator/ src/incubator/my-chart`
+- Add/Edit you chart in `src/stable` or `src/incubator` directory
+- Run `make package-stable my-chart` or `make package-incubator my-chart`
 - Run `make index`
 
 # Contributing
