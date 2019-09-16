@@ -2,4 +2,4 @@ apiVersion: v1
 appVersion: "v4"
 description: A echo-headers chart for Kubernetes
 name: echo-headers
-version: 0.1.0
+version: 0.1.1

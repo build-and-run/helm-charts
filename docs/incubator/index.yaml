@@ -3,11 +3,20 @@ entries:
   echo-headers:
   - apiVersion: v1
     appVersion: v4
-    created: "2019-09-16T14:39:27.84617+02:00"
+    created: "2019-09-16T14:46:26.946731+02:00"
+    description: A echo-headers chart for Kubernetes
+    digest: ee0263ec5e7aa218b866306984cdd7883ba2c2c8c181f7c37d0e71eb563c9b90
+    name: echo-headers
+    urls:
+    - https://charts.build-and-run.fr/incubator/echo-headers-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v1
+    appVersion: v4
+    created: "2019-09-16T14:46:26.94631+02:00"
     description: A echo-headers chart for Kubernetes
     digest: 0af4d752f648d9cb1234d0c187513f145f7d5506795be035ddd351583533533d
     name: echo-headers
     urls:
     - https://charts.build-and-run.fr/incubator/echo-headers-0.1.0.tgz
     version: 0.1.0
-generated: "2019-09-16T14:39:27.845523+02:00"
+generated: "2019-09-16T14:46:26.943678+02:00"
